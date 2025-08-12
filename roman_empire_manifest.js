@@ -12,8 +12,6 @@
 G.DeclareManifest({
     name: 'Roman Empire Manifest',
     updates: {
-        // Keep the default dataset so all core content loads before our mod.
-        'Default dataset*': 'data.js',
         // Declare our Roman Empire dataset. The caret indicates a user mod.
         'Roman Empire^': 'roman_empire.js',
     },
