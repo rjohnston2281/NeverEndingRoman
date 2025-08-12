@@ -55,7 +55,8 @@ G.AddData({
          */
         new G.Unit({
 		  name: 'legionary',
-		  desc: 'A disciplined Roman soldier who trains relentlessly.<>Each Legionary gathers insight through drill and battle, and their presence bolsters your tribe when imperial laws are in effect.',
+		 desc: 'A disciplined Roman soldier who trains relentlessly.<>Each Legionary gathers insight through drill and battle, and their presence bolsters your tribe when imperial laws are in effect.',
+
 		  icon: [0, 0],
 		  cost: { 'food': 100, 'iron': 20 },
 		  use: { 'worker': 1 },
