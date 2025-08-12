@@ -20,7 +20,7 @@ G.AddData({
     desc: 'Adds the Roman Empire era: a new tech and Legionary unit unlocked late in the tech tree.',
     engineVersion: 1,
     // Point to our manifest so the game knows where to find this dataset.
-    manifest: 'roman_empire_manifest.js',
+    manifest: 'ModManifest.js',
     // Our mod depends on the base game data; always include the default dataset.
     requires: ['Default dataset*'],
     // We are not shipping any custom sprite sheets; default icons will be used.
