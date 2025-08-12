@@ -54,21 +54,19 @@ G.AddData({
          * Empire tech.
          */
         new G.Unit({
-            name: 'legionary',
-            desc: 'A disciplined Roman soldier who trains relentlessly.<>Each Legionary gathers insight through drill and battle, and their presence bolsters your tribe when imperial laws are in effect.',
-            icon: [0, 0],
-            cost: { 'food': 100, 'iron': 20 },
-            use: { 'worker': 1 },
-            effects: [
-                { type: 'gather', what: { 'insight': 0.4 } },
-                { type: 'gather', what: { 'influence': 0.2 }, req: { 'roman empire': true } },
-                { type: 'mult', value: 1.1, req: { 'roman laws': 'on' } },
-            ],
-            category: 'military',
-            // Only available after researching the Roman Empire tech.
-            req: { 'roman empire': true },
-            // Limit one Legionary per house to avoid overpopulation of elite troops.
-            limitPer: { 'house': 1 },
-        });
+		  name: 'legionary',
+		  desc: 'A disciplined Roman soldier who trains relentlessly.<>Each Legionary gathers insight through drill and battle, and their presence bolsters your tribe when imperial laws are in effect.',
+		  icon: [0, 0],
+		  cost: { 'food': 100, 'iron': 20 },
+		  use: { 'worker': 1 },
+		  effects: [
+			{ type: 'gather', what: { 'insight': 0.4 } },
+			{ type: 'gather', what: { 'influence': 0.2 }, req: { 'roman empire': true } },
+			{ type: 'mult', value: 1.1, req: { 'roman laws': 'on' } },
+		  ],
+		  category: 'military',
+		  req: { 'roman empire': true },
+		  limitPer: { 'house': 1 },
+		});
     },
 });
