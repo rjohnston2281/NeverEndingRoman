@@ -13,6 +13,6 @@ G.DeclareManifest({
     name: 'Roman Empire Manifest',
     updates: {
         // Declare our Roman Empire dataset. The caret indicates a user mod.
-        'Roman Empire^': 'roman_empire.js',
+        'Roman Empire^': 'legacy_of_rome.js',
     },
 });
